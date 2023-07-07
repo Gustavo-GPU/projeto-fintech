@@ -1,0 +1,40 @@
+.topbar {
+    background-color: #254b9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.7rem 2rem;
+}
+
+.topbar-logo {
+    display: flex;
+    align-items: center;
+    color: yellow;
+}
+
+.topbar-navigation {
+    display: flex;
+    align-items: center;
+    max-height: 2rem;
+    gap: 0.3rem;
+}
+
+.topbar-navigation-link {
+    color: #ffffff;
+    padding: 0.3rem 0.5rem;
+    transition: var(--transition);
+}
+
+.topbar-navigation-link:hover {
+    background-color: #cccccc;
+    color: rgb(0, 1, 2);
+    border-radius: 0.4rem;
+}
+
+@media(min-width: 768px) {
+    .topbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

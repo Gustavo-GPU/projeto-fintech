@@ -1,0 +1,18 @@
+:root {
+    --space-10: 1rem;
+    --space-50: 5rem;
+    --space-80: 8rem;
+    --radius: 2.3rem;
+    --radiusicon: 8rem;
+    --transition: 0.5s;
+    
+    /* font size */
+    /* 10px */
+    --sm: 0.625rem; 
+    
+    /* 16px */
+    --md: 1rem; 
+    
+    /* 28px */
+    --lg: 1.75rem; 
+}

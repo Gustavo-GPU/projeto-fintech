@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Fintech</title>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwind.config.js"></script>
+</head>
+
+<body class="bg-cover bg-slate-200">
+    <section id="home">
+        <header class="topbar px-10 lg:px-40">
+            <span class="topbar-logo">
+                <img class="max-h-14" 
+                    alt="Logotipo da Ecopi"
+                    src="./assets/images/logoecopi.gif" 
+                />
+            </span>
+
+            <nav class="topbar-navigation">
+                <a class="topbar-navigation-link" href="#">Home</a>
+                <a class="topbar-navigation-link" href="#">Registro</a>
+                <a class="topbar-navigation-link" href="#">Login</a>
+            </nav>
+        </header>
+
+        <main class="flex flex-col px-10 lg:px-40">
+            <!-- Banner -->
+            <section class="mb-20 mt-5 rounded-md bg-cover flex" 
+                style="background-image: url('assets/images/Layout.jpg')"
+            >
+                <div class="flex flex-col p-3 w-full">
+                    <h1 class="flex justify-center w-full text-slate-900 text-4xl font-serif">
+                        Ecopi, descomplicando suas finanças!
+                    </h1>
+                    <h2 class="text-slate-900 text-2xl font-serif pb-10 text-center">
+                        Oferecemos uma plataforma intuitiva
+                    </h2>
+                    <p class="text-black text-lg break-words md:max-w-sm lg:max-w-md mb-4">
+                        Oferecemos uma plataforma intuitiva para administrar suas finanças pessoais, 
+                        investimentos e gastos. 
+                    </p>
+
+                    <p class="text-black text-lg break-words md:max-w-sm lg:max-w-md pb-10">
+                        Aprenda dicas de economia,
+                        crie um orçamento eficiente e acompanhe seu progresso. 
+                        Conte com uma equipe dedicada a simplificar suas decisões financeiras.
+                    </p>
+                    <a class="flex p-4 rounded-md text-white bg-blue-600 text-lg hover:bg-blue-400 w-36 justify-center align-items" href="#">
+                        Saiba mais
+                    </a>
+                </div>
+            </section>
+
+            <!-- Cards -->
+            <section class="flex flex-col md:flex-row gap-4">
+                <!-- Card -->
+                <figure class="flex flex-col bg-blue-800 shadow-md rounded-md pb-10 overflow-hidden">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        consultores
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover mb-6" 
+                        src="assets/images/consultor.jpg"
+                        alt="consultor analisando um grafico"
+                    >
+                    <p class="text-white break-words p-4">
+                        Conheça nossos consultores financeiros especializados, prontos para 
+                        simplificar o seu caminho para o sucesso financeiro. Com uma abordagem 
+                        simplória e acolhedora, ajudamos pessoas de todos os níveis de conhecimento 
+                        financeiro. Receba orientação personalizada adaptada às suas necessidades. 
+                        Desmistificamos as finanças, explicando de forma clara como atingir seus 
+                        objetivos. Com nosso apoio, tome decisões informadas, crie um plano financeiro
+                        sólido e garanta sua tranquilidade. Simplifique sua vida financeira e trilhe 
+                        o caminho para o sucesso.
+                    </p>
+                </figure>
+
+                <!-- Card -->
+                <figure class="flex flex-col bg-blue-800 shadow-md rounded-md pb-10">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        Finanças
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/3 mb-6" 
+                        src="assets/images/financeiro.jpg" 
+                        alt="pessoa fazendo anotações, proximo a uma xicará"
+                    >
+                    <p class="text-white break-words p-4">
+                        Faça seu acompanhamento financeiro e planejamento conosco para uma experiência única e acessível.
+                        Nossos especialistas estão aqui para simplificar suas finanças e ajudar você a alcançar seus objetivos.
+                        Com orientação personalizada e apoio caloroso, criaremos um plano sólido para o seu sucesso financeiro.
+                        Tome decisões informadas e sinta-se confiante no controle das suas finanças. 
+                        Simplifique sua vida financeira hoje mesmo, conte com nosso suporte próximo e torne seus sonhos realidade.
+                    </p>
+                </figure>
+
+                <!-- Card -->
+                <figure class="flex flex-col bg-blue-800 shadow-md rounded-b-lg pb-10">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        serviços
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/3 mb-6" 
+                        src="assets/images/servicos.jpg" 
+                        alt="Oculos sobre a mesa ao lado de um celular, com um grafico na tela."
+                    />
+                    <p class="text-white break-words p-4">
+                        Simplifique suas finanças conosco. Nossa fintech oferece serviços personalizados para atender suas necessidades.
+                        Através de nossa plataforma intuitiva, você terá controle total sobre suas finanças, investimentos e gastos.
+                        Nossos especialistas estão prontos para orientá-lo em cada passo, ajudando você a tomar decisões informadas e
+                        alcançar suas metas financeiras. Simplifique sua vida financeira hoje mesmo com nosso suporte dedicado.
+                        Descubra como nossa fintech torna a gestão financeira clara e descomplicada.
+                    </p>
+                </figure>
+            </section>
+        </main>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+@import "variables.css";
+@import "resets.css";
+@import "commons.css";
+@import "components.css";
+
+/* Pages */
+@import "pages/home.css";
